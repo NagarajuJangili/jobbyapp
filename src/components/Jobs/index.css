@@ -1,0 +1,92 @@
+.job-home {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.profile-card {
+  height: 100px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  width: 70%;
+}
+.prof-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.profile-logo {
+  height: 30px;
+  width: 30px;
+}
+.name-head {
+  color: aqua;
+  font-size: 13px;
+  font-family: 'roboto';
+}
+.job-role {
+  color: rgb(27, 31, 56);
+  font-size: 10px;
+  font-family: 'roboto';
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-heading {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'roboto';
+}
+.each {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'roboto';
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+}
+.list-items {
+  display: flex;
+  list-style-type: none;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.failure-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
+}
+.failure-caption {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'roboto';
+}

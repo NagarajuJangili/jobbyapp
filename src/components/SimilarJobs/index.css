@@ -1,0 +1,34 @@
+.each-similar-card {
+  list-style-type: none;
+  background-color: #272727;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  width: 400px;
+}
+.card {
+  display: flex;
+}
+.title-rating {
+  display: flex;
+  flex-direction: column;
+}
+title {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+.rating {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'roboto';
+}
+
+.text {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'roboto';
+}
